@@ -1,0 +1,28 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello Vindhya here, thanks for visiting", "Hello Vindhya here ,Good to see you again", "Hi Vindhya here, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "dep",
+         "patterns": ["What is depression" , "Why depression" ,"Am I depressed" , "Why I am feeling lonely" , "Why Am I feeling anxiety" ],
+         "responses": ["Clinical depression is a serious condition that negatively affects how a person thinks, feels, and behaves. In contrast to normal sadness, clinical depression is persistent, often interferes with a person’s ability to experience or anticipate pleasure, and significantly interferes with functioning in daily life. Untreated, symptoms can last for weeks, months, or years; and if inadequately treated, depression can lead to significant impairment, other health-related issues, and in rare cases, suicide."]
+        },
+        {"tag": "symptoms",
+         "patterns": ["WHAT ARE SOME OF THE SIGNS AND SYMPTOMS OF DEPRESSION?", "Symptoms of depression" ],
+         "responses": ["Depressed mood most of the day, nearly every day" ,"Markedly diminished interest or pleasure in activities most of the day, nearly every day" , "Loss of energy or increased fatigue"]
+        },
+        {"tag": "treat",
+         "patterns": ["Can depression be treated or diagnosed", "What to do if feeling depressed", "How depression is treated"],
+         "responses": ["The first step to being diagnosed is to visit a doctor for a medical evaluation. Certain medications, and some medical conditions such as thyroid disorder, can cause similar symptoms as depression. A doctor can rule out these possibilities by conducting a physical examination, interview and lab tests. If the doctor eliminates a medical condition as a cause, he or she can implement treatment or refer the patient to a mental health professional" ,"Psychiatric evaluation.Your mental health professional asks about your symptoms, thoughts, feelings and behavior patterns. You may be asked to fill out a questionnaire to help answer these questions"]
+        }
+   ]
+}
