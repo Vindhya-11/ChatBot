@@ -31,7 +31,7 @@ print(documents)
 # lemmaztize and lower each word and remove duplicates
 words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_letters]
 words = sorted(list(set(words)))
-# sort classes
+# sorted class
 classes = sorted(list(set(classes)))
 # documents = combination between patterns and intents
 print (len(documents), "documents")
